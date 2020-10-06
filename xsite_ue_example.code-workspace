@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"name": "xsite_ue_example",
+			"path": "."
+		},
+		{
+			"name": "UE4",
+			"path": "/run/media/lorenz/Workspace/UnrealEngine"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp",
+			"vadimcn.vscode-lldb",
+			"ms-vscode.mono-debug"
+		]
+	}
+}
