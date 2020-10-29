@@ -1,0 +1,121 @@
+{
+	"system": "2 windows side by side example",
+	"date" : "2020-10-14",
+	"eye" : [0.0, 0.0, 0.0],
+	"walls": [
+		{
+			"name" : "SideBySide",
+			"size" : [32, 9],
+			"normal" : [0.0, 0.0, 1.0],
+			"bounds" : {
+				"top_left" : [-16, 4.5, -12],
+				"bottom_right" : [16, -4.5, -12]
+			},
+			"camera" : {
+				"F": [],
+				"Fi": []
+			},
+			"clients" : [
+				{
+					"name" : "*",
+					"id" : 0,
+					"ip" : "127.0.0.1",
+					"projectors" : [
+						{
+							"name" : "left",
+							"id" : 0,
+							"display" : 0,
+							"screen" : 0,
+							"resolution" : [840, 480],
+							"offset" : [0, 0],
+							"alphamask" : "",
+							"corners" : {
+								"projector_space" : [
+								],
+								"camera_space" : {
+									"top_left" : [],
+									"top_right" : [],
+									"bottom_right" : [],
+									"bottom_left" : []
+								},
+								"display_space" : {
+									"top_left" : [
+										0.0,
+										0.0
+									],
+									"top_right" : [
+										0.5,
+										0.0
+									],
+									"bottom_right" : [
+										0.5,
+										1.0
+									],
+									"bottom_left" : [
+										0.0,
+										1.0
+									]
+								}
+							},
+							"view_volume" : {
+								"pa" : [],
+								"pb" : [],
+								"pc" : []
+							},
+							"H_x": [],
+							"H_y": [],
+							"Hi_x": [],
+							"Hi_y": []
+						},
+						{
+							"name" : "right",
+							"id" : 1,
+							"display" : 0,
+							"screen" : 0,
+							"resolution" : [840, 480],
+							"offset" : [840, 0],
+							"alphamask" : "",
+							"corners" : {
+								"projector_space" : [
+								],
+								"camera_space" : {
+									"top_left" : [],
+									"top_right" : [],
+									"bottom_right" : [],
+									"bottom_left" : []
+								},
+								"display_space" : {
+									"top_left" : [
+										0.5,
+										0.0
+									],
+									"top_right" : [
+										1.0,
+										0.0
+									],
+									"bottom_right" : [
+										1.0,
+										1.0
+									],
+									"bottom_left" : [
+										0.5,
+										1.0
+									]
+								}
+							},
+							"view_volume" : {
+								"pa" : [],
+								"pb" : [],
+								"pc" : []
+							},
+							"H_x": [],
+							"H_y": [],
+							"Hi_x": [],
+							"Hi_y": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
