@@ -21,6 +21,7 @@ Hierarchy is as follows:
 
 Coordinate system in config: left hand (x, left-right; y, top-bottom), -z is front; usually meters if not stated otherwise
 
+```
 root
 |
 |----system // this is only used to label this file, it will not be used inside unreal
@@ -58,3 +59,4 @@ root
                         |
                         |----view_volume  // not used for now, ignore this; the coordinates defining the view frustum; this is calculated by the other values in unreal coordinates
                         |----H_x,H_y,Hi_x,Hi_y // warping parameters, you can leave these empty if you dont need/want to warp
+```
