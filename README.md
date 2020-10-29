@@ -12,3 +12,7 @@ git lfs install
 git lfs pull
 ```
 Open .uproject file with Unreal Editor
+
+### Installation
+
+There are 3 example configurations available. They do not contain any warping or blending stuff and work on a single machine.
