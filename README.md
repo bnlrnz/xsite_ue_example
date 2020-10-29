@@ -1,5 +1,5 @@
 # xsite_ue_example
-Example project that utilises the [xsite_ue plugin](https://github.com/bnlrnz/xsite_ue) for Caves. xsite_ue is included as a git submodule, make shure to clone with "--recursive" or init the submodule later.
+Example project that utilises the [xsite_ue plugin](https://github.com/bnlrnz/xsite_ue) for Caves or multi monitor setups. xsite_ue is included as a git submodule, make shure to clone with "--recursive" or init the submodule later.
 
 Built for Unreal Engine 4.25.3 (4.25.0-4.25.2 or newer versions may or may not work...)
 
