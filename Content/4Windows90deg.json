@@ -1,0 +1,279 @@
+{
+	"system": "4 windows, left, front, right, floor with each 90 deg angle",
+	"date" : "2020-10-14",
+	"eye" : [0.0, 0.0, 0.0],
+	"walls": [
+		{
+			"name" : "wall_front",
+			"size" : [16, 9],
+			"normal" : [0.0, 0.0, 1.0],
+			"bounds" : {
+				"top_left" : [-8, 4.5, -8],
+				"bottom_right" : [8, -4.5, -8]
+			},
+			"camera" : {
+				"F": [],
+				"Fi": []
+			},
+			"clients" : [
+				{
+					"name" : "*",
+					"id" : 0,
+					"ip" : "127.0.0.1",
+					"projectors" : [
+						{
+							"name" : "front",
+							"id" : 0,
+							"display" : 0,
+							"screen" : 0,
+							"resolution" : [640, 360],
+							"offset" : [640, 0],
+							"alphamask" : "",
+							"corners" : {
+								"projector_space" : [
+								],
+								"camera_space" : {
+									"top_left" : [],
+									"top_right" : [],
+									"bottom_right" : [],
+									"bottom_left" : []
+								},
+								"display_space" : {
+									"top_left" : [
+										0.0,
+										0.0
+									],
+									"top_right" : [
+										1.0,
+										0.0
+									],
+									"bottom_right" : [
+										1.0,
+										1.0
+									],
+									"bottom_left" : [
+										0.0,
+										1.0
+									]
+								}
+							},
+							"view_volume" : {
+								"pa" : [],
+								"pb" : [],
+								"pc" : []
+							},
+							"H_x": [],
+							"H_y": [],
+							"Hi_x": [],
+							"Hi_y": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "wall_left",
+			"size" : [16, 9],
+			"normal" : [1.0, 0.0, 0.0],
+			"bounds" : {
+				"top_left" : [-8, 4.5, 8],
+				"bottom_right" : [-8, -4.5, -8]
+			},
+			"camera" : {
+				"F": [],
+				"Fi": []
+			},
+			"clients" : [
+				{
+					"name" : "*",
+					"id" : 0,
+					"ip" : "127.0.0.1",
+					"projectors" : [
+						{
+							"name" : "left",
+							"id" : 0,
+							"display" : 0,
+							"screen" : 0,
+							"resolution" : [640, 360],
+							"offset" : [0, 0],
+							"alphamask" : "",
+							"corners" : {
+								"projector_space" : [
+								],
+								"camera_space" : {
+									"top_left" : [],
+									"top_right" : [],
+									"bottom_right" : [],
+									"bottom_left" : []
+								},
+								"display_space" : {
+									"top_left" : [
+										0.0,
+										0.0
+									],
+									"top_right" : [
+										1.0,
+										0.0
+									],
+									"bottom_right" : [
+										1.0,
+										1.0
+									],
+									"bottom_left" : [
+										0.0,
+										1.0
+									]
+								}
+							},
+							"view_volume" : {
+								"pa" : [],
+								"pb" : [],
+								"pc" : []
+							},
+							"H_x": [],
+							"H_y": [],
+							"Hi_x": [],
+							"Hi_y": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "wall_right",
+			"size" : [16, 9],
+			"normal" : [-1.0, 0.0, 0.0],
+			"bounds" : {
+				"top_left" : [8, 4.5, -8],
+				"bottom_right" : [8, -4.5, 8]
+			},
+			"camera" : {
+				"F": [],
+				"Fi": []
+			},
+			"clients" : [
+				{
+					"name" : "*",
+					"id" : 0,
+					"ip" : "127.0.0.1",
+					"projectors" : [
+						{
+							"name" : "right",
+							"id" : 0,
+							"display" : 0,
+							"screen" : 0,
+							"resolution" : [640, 360],
+							"offset" : [1280, 0],
+							"alphamask" : "",
+							"corners" : {
+								"projector_space" : [
+								],
+								"camera_space" : {
+									"top_left" : [],
+									"top_right" : [],
+									"bottom_right" : [],
+									"bottom_left" : []
+								},
+								"display_space" : {
+									"top_left" : [
+										0.0,
+										0.0
+									],
+									"top_right" : [
+										1.0,
+										0.0
+									],
+									"bottom_right" : [
+										1.0,
+										1.0
+									],
+									"bottom_left" : [
+										0.0,
+										1.0
+									]
+								}
+							},
+							"view_volume" : {
+								"pa" : [],
+								"pb" : [],
+								"pc" : []
+							},
+							"H_x": [],
+							"H_y": [],
+							"Hi_x": [],
+							"Hi_y": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "floor",
+			"size" : [16, 9],
+			"normal" : [0.0, 1.0, 0.0],
+			"bounds" : {
+				"top_left" : [-8, -4.5, -8],
+				"bottom_right" : [8, -4.5, 1]
+			},
+			"camera" : {
+				"F": [],
+				"Fi": []
+			},
+			"clients" : [
+				{
+					"name" : "*",
+					"id" : 0,
+					"ip" : "127.0.0.1",
+					"projectors" : [
+						{
+							"name" : "right",
+							"id" : 0,
+							"display" : 0,
+							"screen" : 0,
+							"resolution" : [640, 360],
+							"offset" : [640, 360],
+							"alphamask" : "",
+							"corners" : {
+								"projector_space" : [
+								],
+								"camera_space" : {
+									"top_left" : [],
+									"top_right" : [],
+									"bottom_right" : [],
+									"bottom_left" : []
+								},
+								"display_space" : {
+									"top_left" : [
+										0.0,
+										0.0
+									],
+									"top_right" : [
+										1.0,
+										0.0
+									],
+									"bottom_right" : [
+										1.0,
+										1.0
+									],
+									"bottom_left" : [
+										0.0,
+										1.0
+									]
+								}
+							},
+							"view_volume" : {
+								"pa" : [],
+								"pb" : [],
+								"pc" : []
+							},
+							"H_x": [],
+							"H_y": [],
+							"Hi_x": [],
+							"Hi_y": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
